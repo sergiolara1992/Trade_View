@@ -9,7 +9,7 @@
         </div>
 
         <div>
-          <img src="/public/Mask Group 2.png" alt="" srcset="">
+          <img src="/public/MaskGroup2.png" alt="" srcset="">
         </div>
       </div>
 

@@ -16,18 +16,13 @@
       </div>
 
         <div>
-          <img class="hero" src="/public/Mask Group 1.png" alt="" srcset="">
+          <img class="hero" src="../../public/MaskGroup1.png" alt="" srcset="">
         </div>
-
-
-
-
-
 
 
         <div class="info-banner">
           <div>
-            <img class="logo" src="/public/Group 30.svg" alt="" srcset="">
+            <img class="logo" src="/public/Group30.svg" alt="" srcset="">
           </div>
           <p class="paragraph-banner">Tradeview's <span>CommuniTraders</span> software lets our partners provide value-added
             copy trading to their clients</p>
