@@ -56,24 +56,50 @@ a {
 img{
   max-width: 100%;
   display: block;
+  margin: 0;
 }
 
-.contenedor{
+.logo{
+  margin: 0 auto;
+}
+
+.info-banner{
   max-width: 120rem;
   width: 90%;
   margin: 0 auto;
 }
 
+.header{
+  width: 100%;
+}
+
 .header_barra{
-  display: flex;
-  justify-content: space-around;
   align-items: center;
   margin-bottom: 4rem;
+  padding: 2rem;
+}
+
+@media (min-width: 768px) { 
+  .header_barra{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+  }
 }
 
 .nav-header{
   display: flex;
+  flex-wrap: wrap;
   gap: 4rem;
+  margin-top: 4rem;
+}
+
+@media (min-width: 768px) { 
+  .nav-header{
+    margin-top: 0;
+    padding: 2rem;
+  }
 }
 
 .links{
@@ -104,32 +130,48 @@ img{
 
 .banner{
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   gap: 10rem;
+}
+
+@media (min-width: 768px) { 
+  .banner{
+    flex-direction: row;
+    height: 100vh ;
+  }
+}
+.hero{
+  width: 90rem;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .paragraph-banner{
   text-align: center;
   color: #ffffff;
   margin: 8rem 0rem 8rem 0;
-  
+  width: 80%;
+  margin: 2rem auto;
 }
-
 span{
   font-weight: 900;
   color: #ffffff;
 }
 
-
 .main{
   background-color: #ffffff;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  gap: 2rem;
   padding: 4rem;
   
+}
+@media (min-width: 768px) { 
+  .main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 2rem;
+  }
 }
 
 .card{
@@ -170,8 +212,16 @@ h4{
   color: #ffffff;
   opacity: 1;
   margin-bottom: 6rem;
+  flex-direction: column;
   
 }
+
+@media (min-width: 768px) { 
+  .plan{
+    flex-direction: row;
+  }
+}
+
 .left_button{
   color: #ffffff;
   background-color: #181F29;

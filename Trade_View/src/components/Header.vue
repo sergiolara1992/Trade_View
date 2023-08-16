@@ -2,7 +2,7 @@
      <header class="header">
           <div class="header_barra contenedor">
               <div class="header__logo">
-                  <img src="../public/Logo.svg" alt="" srcset="">
+                  <img src="/public/logo.svg" alt="" srcset="">
               </div>
 
               <nav class="nav-header">
@@ -24,7 +24,3 @@
 
 </template>
 
-<script setup>
-
-
-</script>
