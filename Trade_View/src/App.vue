@@ -1,14 +1,35 @@
 <script setup>
 import Header from './components/Header.vue';
+
 </script>
 
 <template>
   <Header />
   <div class="banner contenedor">
 
+    <div class="links_banner">
+      <ul>
+       <li>Markets</li>
+       <li>Company</li>
+       <li>Accounts</li>
+       <li>Platforms</li>
+       <li>Pricing</li>
+       <li>Introducing Brokers</li>
+       <li>Education</li>
+       <li>Support</li>
+
+    </ul>
+  </div>
+
     <div>
       <img class="hero" src="/public/Mask Group 1.png" alt="" srcset="">
     </div>
+
+
+
+
+
+
 
     <div class="info-banner">
       <div>

@@ -69,6 +69,36 @@ img{
   margin: 0 auto;
 }
 
+.links_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 5rem;
+}
+
+
+.links_banner ul li {
+  color: #ffffff;
+  list-style: none;
+  font-size: 1.5rem;
+  
+
+}
+
+.links_banner ul{
+  display: flex;
+  gap: 8rem;
+}
+
+@media (max-width: 768px) { 
+  .links_banner{
+    display: none;
+      
+  }
+}
+
+
+
 .header{
   width: 100%;
 }
@@ -134,6 +164,7 @@ img{
   justify-content: center;
   align-items: center;
   gap: 10rem;
+  position: relative;
 }
 
 @media (min-width: 768px) { 
